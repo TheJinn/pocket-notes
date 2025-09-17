@@ -1,0 +1,16 @@
+.sidebar{position:relative;border-right:1px solid var(--border);background:var(--bg);display:flex;flex-direction:column;height:100vh}
+.brand{font-size:24px;font-weight:700;color:#0f172a;padding:20px 16px 8px}
+.groupList{padding:8px 12px 96px;display:flex;flex-direction:column;gap:8px;overflow:auto}
+.groupRow{position:relative;display:flex;align-items:center}
+.groupItem{display:flex;align-items:center;gap:12px;width:100%;padding:12px;border-radius:12px;border:1px solid transparent;background:transparent;cursor:pointer;text-align:left}
+.groupRow:hover .groupItem{background:var(--hover)}
+.active .groupItem{background:var(--hover-strong);border-color:var(--border-strong)}
+.avatar{width:40px;height:40px;border-radius:50%;color:#fff;display:grid;place-items:center;font-weight:700}
+.groupName{font-size:15px;font-weight:600;color:#111827}
+.menuBtn{position:absolute;right:8px;background:transparent;border:none;font-size:18px;color:#6b7280;cursor:pointer;padding:6px 8px;border-radius:8px;opacity:0;pointer-events:none}
+.groupRow:hover .menuBtn{opacity:1;pointer-events:auto}
+.menuAlways{opacity:1;pointer-events:auto}
+.emptyState{color:var(--muted);padding:14px;font-size:14px;text-align:center}
+.fab{position:absolute;right:16px;bottom:16px;width:56px;height:56px;border-radius:50%;background:#2206a7;color:#fff;border:none;display:grid;place-items:center;font-size:28px;cursor:pointer;box-shadow:0 8px 20px rgba(34,6,167,.25)}
+.fab:hover{filter:brightness(.98)}
+@media(max-width:860px){.sidebar{border-right:none}}

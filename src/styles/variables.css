@@ -1,0 +1,2 @@
+:root{--canvas:#dce7f6;--bg:#ffffff;--panel:#ffffff;--card:#ffffff;--input:#ffffff;--input-focus:#f3f6fb;--fg:#0f172a;--muted:#6b7280;--border:#e5e7eb;--border-strong:#cbd5e1;--hover:#f3f4f6;--hover-strong:#eef2f7;--accent:#052c8a;--accent-contrast:#ffffff;--fab:#2206a7;--fab-contrast:#ffffff}
+*{box-sizing:border-box}html,body,#root{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--canvas);color:var(--fg)}
