@@ -50,4 +50,3 @@ The app will start at: [http://localhost:5173](http://localhost:5173)
 - [Vite](https://vitejs.dev/) – Fast dev environment & build tool  
 - CSS Modules – Scoped styling with plain CSS  
 - LocalStorage – Simple persistence layer  
-# pocket-notes
